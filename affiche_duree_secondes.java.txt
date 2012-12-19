@@ -1,0 +1,23 @@
+
+public class affiche_duree_secondes {
+
+	public static void main(String[] args) {
+		
+		// Déclarations
+		int h ,m ,s,d;
+		
+		// Début
+		System.out.print ("Donner le nombre d'heures : ");
+		h = Lire.i();
+		System.out.print ("Donner le nombre de minutes : ");
+		m = Lire.i();
+		System.out.print ("Donner le nombre de secondes : ");
+		s = Lire.i();
+		
+		d = 3600*h+60*m+s;
+		
+		System.out.print ("La durŽe en secondes est : " +d);
+
+	}
+
+}
